@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc5c8d86dac040e5ace02492092fff44" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="PLUMModel.ClientInfo" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PLUMModel.Farmer" Width="1.5" PointX="5" PointY="4" />
+        <EntityTypeShape EntityType="PLUMModel.Location" Width="1.5" PointX="2.75" PointY="8" />
+        <EntityTypeShape EntityType="PLUMModel.Role" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="PLUMModel.TypeOfProduce" Width="1.5" PointX="2.75" PointY="5" />
+        <EntityTypeShape EntityType="PLUMModel.UserRole" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="PLUMModel.User" Width="1.5" PointX="0.75" PointY="3.875" />
+        <AssociationConnector Association="PLUMModel.FK_Farmer_Location" />
+        <AssociationConnector Association="PLUMModel.FK_Farmer_TypeOfProduce" />
+        <AssociationConnector Association="PLUMModel.FK_UserRole_Roles" />
+        <AssociationConnector Association="PLUMModel.FK_UserRole_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
